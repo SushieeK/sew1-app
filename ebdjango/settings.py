@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-e9m%y%82yyz@dqi8is8^$h!!e0^g&#*kv03s5inoom8xwq_!%9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-env.eba-5tzrwtb4.us-east-1.elasticbeanstalk.com','127.0.0.1']
+ALLOWED_HOSTS = ['django-env.eba-5tzrwtb4.us-east-1.elasticbeanstalk.com', '127.0.0.1']
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'ebdjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'/polls/templates')],
+        'DIRS': [os.path.join(BASE_DIR, '/polls/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
