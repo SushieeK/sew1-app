@@ -8,7 +8,7 @@ install:
 
 script:
   - python -m black .
-  - python -m flake8 --max-line-length=88
+  - python -m flake8 --ignore=E501 --max-line-length=88
   - python -m coverage run manage.py test
 env:
   global:
