@@ -25,4 +25,5 @@ deploy:
   app: "assignment1_django"
   env: "django-project"
   bucket_name: "elasticbeanstalk-us-east-1-743078948488"
-# You can add additional steps such as deployment configuration if needed.
+  on:
+    all_branches: true
